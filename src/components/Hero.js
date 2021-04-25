@@ -11,7 +11,11 @@ const Hero = () => {
           background: 'linear-gradient(to right, #fff, #ffff0)',
         }}
       >
-        <img src={Couple} alt="" style={{ marginTop: '-7rem' }} />
+        <img
+          src={Couple}
+          alt=""
+          style={{ marginTop: '-4rem', width: '34rem' }}
+        />
         <h1 className="lg:text-8xl md:text-7xl sm:text-5xl text-5xl font-black flex items-center mb-3 ">
           Joe
           <svg

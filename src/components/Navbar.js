@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Ring from '../images/Ring.PNG';
 
 const Navbar = ({ handleToggle }) => {
   return (
     <nav className="flex justify-between items-center h-16 bg-white text-black relative shadow-sm">
-      <Link to="/" className="pl-8">
-        Bells
+      <Link to="/" className="pl-8 flex justify-start items-center">
+        <img src={Ring} alt="" style={{ width: '3rem' }} />
+        <h3 className="pl-2 text-xl">Bells</h3>
       </Link>
       <div className="px-4 cursor-pointer md:hidden" onClick={handleToggle}>
         <svg
